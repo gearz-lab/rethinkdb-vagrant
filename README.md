@@ -36,10 +36,20 @@ Let's not forget about Vagrant. Run this as an administrator:
 Installing Cygwin
 ---
 
-We're gonna log on a virtual machine so we need a SSH enabled terminal. For that, let's use Cygwin.
-
-    choco install Cygwin
-    
-We also need a package to install some Cygwin extra packages. Let's install cyg-get:
+We're gonna log on a virtual machine using SSH, so we need a SSH enabled terminal. For that, let's use Cygwin.
 
     choco install cyg-get
+
+
+Installing Cygwin packages
+---
+
+There'are two Cygwin packages we need to install, `openssh`, because Cygwin doesn't have SSH support by default, and `rsync` so Vagrant can use it to synchronize files between the host and the guest machines.
+
+On PowerShell, running as an administrator, let's run these commands:
+
+    cyg-get openssh
+    cyg-get rsync
+    
+
+
