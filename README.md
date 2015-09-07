@@ -67,7 +67,7 @@ Open Cygwin as an administrator. You should be in the `~` directory (`C:\tools\c
 
 Accessing RethinkDB.
 
-For accessing the web administration tool: http://localhost:8080. If you are accessing it from a client app, the port is 28015
+For accessing the web administration tool: [http://localhost:8080](http://localhost:8080). If you are accessing it from a client app, the port is 28015
 
 
 
