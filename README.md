@@ -63,6 +63,11 @@ Now you should have a directory like this: `C:\tools\cygwin\home\[YOUR_USER]\ret
 Starting Vagrant
 ---
 
-Open Cygwin as an administrator. The will be in the `~` directory (`C:\tools\cygwin\home\[YOUR_USER]`). Type `cd rethinkdb-vagrant`, an then `vagrant up`.
+Open Cygwin as an administrator. You should be in the `~` directory (`C:\tools\cygwin\home\[YOUR_USER]`). Type `cd rethinkdb-vagrant`, an then `vagrant up`. For getting access to the machine, type `vagrant ssh`.
+
+Accessing RethinkDB.
+
+For accessing the web administration tool: http://localhost:8080. If you are accessing it from a client app, the port is 28015
+
 
 
