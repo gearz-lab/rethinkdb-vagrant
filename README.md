@@ -10,3 +10,7 @@ Throughout this process, we're gonna need to install some applications. Just so 
 
 Installing Chocolatey
 --
+
+Open Powershell as an administrator and run this command:
+
+    @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
