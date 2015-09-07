@@ -33,4 +33,13 @@ Let's not forget about Vagrant. Run this as an administrator:
     
 
     
-Installing 
+Installing Cygwin
+---
+
+We're gonna log on a virtual machine so we need a SSH enabled terminal. For that, let's use Cygwin.
+
+    choco install Cygwin
+    
+We also need a package to install some Cygwin extra packages. Let's install cyg-get:
+
+    choco install cyg-get
