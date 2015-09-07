@@ -14,3 +14,23 @@ Installing Chocolatey
 Open Powershell as an administrator and run this command:
 
     @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+    
+... now you should have Chocolatey installed. We're gonna use to install the others.
+
+Installing VirtualBox
+---
+
+Vagrant relies on a virtualization application that it calls a "provider". The default one is VirtualBox so let's install it. Run `cmd` as administrator and run this:
+
+    choco install virtualbox
+    
+Installing Vagrant
+---
+
+Let's not forget about Vagrant. Run this as an administrator:
+
+    choco install vagrant
+    
+
+    
+Installing 
