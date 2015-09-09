@@ -17,22 +17,22 @@ Open Powershell as an administrator and run this command:
     
 ... now you should have Chocolatey installed. We're gonna use to install the others.
 
+Installing Vagrant
+---
+
+Run this as an administrator:
+
+    choco install vagrant
+    
+Now you should be able to run the `vboxmanage` command. If it doesn't work, make sure `C:\Program Files\Oracle\VirtualBox` is in your PATH.
+
 Installing VirtualBox
 ---
 
 Vagrant relies on a virtualization application that it calls a "provider". The default one is VirtualBox so let's install it. Run `cmd` as administrator and run this:
 
     choco install virtualbox
-    
-Installing Vagrant
----
 
-Let's not forget about Vagrant. Run this as an administrator:
-
-    choco install vagrant
-    
-
-    
 Installing Cygwin
 ---
 
