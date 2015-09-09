@@ -54,7 +54,9 @@ On PowerShell, running as an administrator, let's run these commands:
 Cloning rethinkdb-vagrant
 ---
 
-Open your Cygwin home directory. It should be something like this: `C:\tools\cygwin\home\[YOUR_USER]`. Inside this folder, clone rethyinkdb-vagrant (make sure you have git installed):
+Open the `Cygwin64 Terminal`. You should now be in your Cygwin home folder, which should look like `C:\tools\cygwin\home\[YOUR_USER]`.
+
+Make sure you have git installed. If you don't just `choco install git -y`. Now, clone `rethyinkdb-vagrant`:
 
     git clone https://github.com/gearz-lab/rethinkdb-vagrant.git
     
@@ -63,7 +65,7 @@ Now you should have a directory like this: `C:\tools\cygwin\home\[YOUR_USER]\ret
 Starting Vagrant
 ---
 
-Open Cygwin as an administrator. You should be in the `~` directory (`C:\tools\cygwin\home\[YOUR_USER]`). Type `cd rethinkdb-vagrant`, an then `vagrant up`. For getting access to the machine, type `vagrant ssh`.
+From inside the `Cygwin64 Terminal` home directory (described in the last step), type `cd rethinkdb-vagrant`, an then `vagrant up`. For getting access to the machine, type `vagrant ssh`.
 
 Accessing RethinkDB.
 ---
