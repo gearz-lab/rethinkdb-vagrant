@@ -22,14 +22,14 @@ Installing Vagrant
 
 Run this as an administrator:
 
-    choco install vagrant
+    choco install vagrant -y
     
 Installing VirtualBox
 ---
 
 Vagrant relies on a virtualization application that it calls a "provider". The default one is VirtualBox so let's install it. Run `cmd` as administrator and run this:
 
-    choco install virtualbox
+    choco install virtualbox -y
 
 Now you should be able to run the `vboxmanage` command. If it doesn't work, make sure `C:\Program Files\Oracle\VirtualBox` is in your PATH.
 
@@ -38,7 +38,7 @@ Installing Cygwin
 
 We're gonna log on a virtual machine using SSH, so we need a SSH enabled terminal. For that, let's use Cygwin.
 
-    choco install cyg-get
+    choco install cyg-get -y
 
 
 Installing Cygwin packages
