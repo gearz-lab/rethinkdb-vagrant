@@ -62,15 +62,24 @@ Make sure you have git installed. If you don't just `choco install git -y`. Now,
     
 Now you should have a directory like this: `C:\tools\cygwin\home\[YOUR_USER]\rethinkdb-vagrant`.
 
-Starting Vagrant
+Starting Vagrant and useful commands
 ---
 
-From inside the `Cygwin64 Terminal` home directory (described in the last step), type `cd rethinkdb-vagrant`, an then `vagrant up`. For getting access to the machine, type `vagrant ssh`.
+From inside the `Cygwin64 Terminal` home directory (described in the last step), type `cd rethinkdb-vagrant`, now, any Vagrant commands will target `cd rethinkdb-vagrant`.
+
+ - To setup and boot the machine: `vagrant up` (After this, RethinkDB is available, see next step).
+ - To access the machine's terminal: `vagrant ssh`.
+ - To destroy the machine (every RethinkDB data will be lost): `vagrant destroy`.
+ - To suspend the machine: `vagrant suspend`.
+ - To resume a suspended machine: `vagrant resume`.
 
 Accessing RethinkDB.
 ---
 
-For accessing the web administration tool: [http://localhost:8080](http://localhost:8080). If you are accessing it from a client app, the port is 28015
+Make sure you have `vagrant up` from the last step. Now:
+
+ - For accessing the web administration tool: [http://localhost:8080](http://localhost:8080).
+ - For accessing RethinkDB from a client app, the port is 28015.
 
 
 
